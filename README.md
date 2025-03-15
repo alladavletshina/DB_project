@@ -68,8 +68,8 @@ type: Тип велосипеда, который может быть одним
 Все три таблицы — Car, Motorcycle и Bicycle — связаны с таблицей Vehicle через поле model. Это гарантирует, что любая модель, упомянутая в этих таблицах, уже зарегистрирована в общей таблице Vehicle.
 Таблицы Car, Motorcycle и Bicycle дополняют основную таблицу Vehicle, добавляя уникальные подробности для каждого вида транспорта, такие как объём двигателя для автомобилей и мотоциклов или количество передач для велосипедов.
 
-скрипт создания таблиц TransportDB/Creation_tables_TransportDB.sql
-скрипт создания наполнения данными TransportDB/insert_into_tables_TransportDB.sql
+1. скрипт создания таблиц TransportDB/Creation_tables_TransportDB.sql
+2. скрипт создания наполнения данными TransportDB/insert_into_tables_TransportDB.sql
 
 Задача № 1
 Скрипт размещен TransportDB/task_1_TransportDB.sql
