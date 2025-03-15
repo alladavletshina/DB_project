@@ -3,7 +3,7 @@ select
 	c.email,
 	c.phone,
 	count(b.ID_booking) as booking_сount,
-	STRING_AGG(h.name, ' ,' ORDER BY h.name) as all_hotels,
+	STRING_AGG(distinct h.name, ' ,' ORDER BY h.name) as all_hotels,
 	round(avg(check_out_date - check_in_date), 4) as avg_stay_length
 from customer c
 join booking b on b.ID_customer = c.ID_customer
