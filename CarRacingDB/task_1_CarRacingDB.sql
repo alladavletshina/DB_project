@@ -19,4 +19,4 @@ select
 	race_count
 from min_avg_position_car_class
 where rank = 1
-order by average_position, car_name
+order by average_position
